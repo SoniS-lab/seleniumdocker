@@ -1,0 +1,7 @@
+<suite name="FlightSuite">
+    <test name="bookflight" >
+        <classes>
+            <class name="com.mercurytours.tests.RegistartionPageTestCases"></class>
+        </classes>
+    </test>
+</suite>
