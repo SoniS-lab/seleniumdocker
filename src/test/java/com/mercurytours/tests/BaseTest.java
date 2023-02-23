@@ -38,7 +38,7 @@ public class BaseTest
         c=new ChromeOptions();
        // c.setAcceptInsecureCerts(true);OR
         c.setCapability("acceptInsecureCerts", true);
-        if (System.getProperty("BROWSER")!=null) {
+        if (System.getProperty("BROWSER")==firefox) {
             m=new FirefoxOptions();
 
         }
@@ -63,7 +63,6 @@ public class BaseTest
     @AfterMethod
     public void teatDown()
     {
-        System.setProperty("BROWSER","null");
-        driver.quit();
+         driver.quit();
     }
 }
