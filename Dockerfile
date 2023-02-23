@@ -1,6 +1,6 @@
 From dabal/jre11-alpine
 RUN apk add curl jq  
-WORKDIR /usr/share/udemy
+WORKDIR /usr/share/selenium
 ADD target/docker.jar docker.jar
 ADD target/docker-tests.jar docker-tests.jar
 ADD testng.xml testng.xml
