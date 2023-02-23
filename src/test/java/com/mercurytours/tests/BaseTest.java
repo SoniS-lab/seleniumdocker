@@ -63,6 +63,7 @@ public class BaseTest
     @AfterMethod
     public void teatDown()
     {
+        System.setProperty("BROWSER") = null;
         driver.quit();
     }
 }
