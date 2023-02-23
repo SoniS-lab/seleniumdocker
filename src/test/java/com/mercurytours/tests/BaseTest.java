@@ -42,8 +42,8 @@ public class BaseTest
             m=new FirefoxOptions();
 
         }
-        if (System.getProperty("host") != null) {
-            host=System.getProperty("host");
+        if (System.getProperty("HUB_HOST") != null) {
+            host=System.getProperty("HUB_HOST");
 
         }
         url=url+"http://"+host+":4444";
