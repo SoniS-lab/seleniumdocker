@@ -51,6 +51,7 @@ public class BaseTest
 
        // driver = new ChromeDriver();
         try {
+            System.out.println("Browser is "+ System.getProperty("BROWSER"));
             driver=new RemoteWebDriver(new URL(url),m);
         } catch (MalformedURLException e) {
             throw new RuntimeException(e);
