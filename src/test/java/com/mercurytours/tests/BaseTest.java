@@ -38,7 +38,7 @@ public class BaseTest
         c=new ChromeOptions();
        // c.setAcceptInsecureCerts(true);OR
         c.setCapability("acceptInsecureCerts", true);
-        if (System.getProperty("BROWSER")==firefox) {
+        if (System.getProperty("BROWSER")=="firefox") {
             m=new FirefoxOptions();
 
         }
