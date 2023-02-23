@@ -5,6 +5,6 @@ ADD target/docker.jar docker.jar
 ADD target/docker-tests.jar docker-tests.jar
 ADD testng.xml testng.xml
 ADD testng1.xml testng1.xml
-ADD target/alternateLocation alternateLocation
+ADD target/libs libs
 ADD healthcheck.sh healthcheck.sh
 Entrypoint sh healthcheck.sh
